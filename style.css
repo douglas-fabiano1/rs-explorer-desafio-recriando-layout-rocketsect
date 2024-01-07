@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #2c2b3d;
+  height: 100vh;
+}
+
+ul li a,
+h1,
+footer {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.page {
+  width: 1080px;
+  margin: 0 auto 23px;
+  padding-top: 70px;
+}
