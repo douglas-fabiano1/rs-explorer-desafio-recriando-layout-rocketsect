@@ -10,9 +10,14 @@ body {
   height: 100vh;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 ul li a,
 h1,
-footer {
+footer p {
   font-family: "JetBrains Mono", monospace;
 }
 
@@ -20,4 +25,32 @@ footer {
   width: 1080px;
   margin: 0 auto 23px;
   padding-top: 70px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a,
+footer {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+nav img {
+  width: 168px;
 }
